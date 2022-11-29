@@ -1,0 +1,13 @@
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  // gap: 3rem;
+  margin: 0 auto;
+  max-width: 1300px;
+
+  @media (max-width: 1024px) {
+    padding: 0;
+  }
+
+}

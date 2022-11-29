@@ -1,0 +1,127 @@
+@use '../variables';
+@use '../mixins';
+    
+.technologies-container{
+  margin: 1rem 0;
+
+  .technologies-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+      
+  .technology-card{
+    @include mixins.center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    width: 22%;
+    border-radius: variables.$card-border-radius;
+
+    h3{
+      color: variables.$text-color;
+      font-size: 1rem;
+    }
+
+    svg{
+      font-size: 2rem;
+    }
+
+    @media (max-width: 1024px) {
+      width: 45%;
+    }
+
+    @media (max-width: 820px) {
+      width: 42%;
+    }
+
+    @media (max-width: 414px) {
+      width: 100%;
+    }
+  }
+
+  #html{
+    svg{
+      color: #E44D26;        
+    }
+  }
+      
+  #css{
+    svg{
+      color: #1572B6;
+    }
+  }
+
+  #js{
+    svg{
+      color: #F0DB4F;
+    }
+  }
+      
+  #tailwind{
+    svg{
+      color: #38bdf8;
+    }
+  }
+
+  #mysql{
+    svg{
+      color: #00618A;
+    }
+  }
+  
+  #react{
+    svg{
+      color: #61DAFB;
+    }
+  }
+
+  #vue{
+    svg{
+      color:  #41B883;
+    }
+  }
+
+  #bootstrap{
+    svg{
+      color: #7210f5;
+    }
+  }
+
+  #sass{
+    svg{
+      color: #cf649a;
+    }
+  }
+
+  #wordpress{
+    svg{
+      color: #fff;
+    }
+  }
+
+  #php{
+    svg{
+      color: #7a86b8;
+    }
+  }
+
+  #git{
+    svg{
+      color: #f54d27;
+    }
+  }
+
+  #photoshop{
+    svg{
+      color: #31a8ff;
+    }
+  }
+
+  #illustrator{
+    svg{
+      color: #ff9a00;
+    }
+  }
+}
+         

@@ -1,0 +1,17 @@
+@use '../variables';
+@use '../mixins';
+
+#formation-container{
+  label {
+    margin-bottom: .5rem;
+    span{
+      color: variables.$text-color-secondary;
+      margin-bottom: 1.5rem;
+      line-height: 1.35rem;
+    }
+    .info-title {
+      color: variables.$text-color;
+    }
+  }
+  
+}
