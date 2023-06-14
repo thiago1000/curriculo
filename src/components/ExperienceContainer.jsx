@@ -1,9 +1,12 @@
 import "../styles/components/experiencecontainer.scss";
 
 const infoExeperience = [
-  { id: "1",  name: "Programador Front-end",company: "Telefônica Educação Digital", year: "2019 - 2022", text: "Desenvolvimento e manutenção de E-learnings, revistas digitais, games, onepages, fechamento de pacote SCORM." },
-  { id: "2", name: "Programador", company: "Webnauta", year: "2018 - 2019", text: "Desenvolvimento e manutenção de sites usando diversas tecnologias como html5, css3 e javascript, desenvolvimento também de back-end com php, além de manutenção de sites com os cms Wordpress e OJS." },
-  { id: "4", name: "Estagiário Front-end", company: "UNIVESP", year: "2014 - 2015", text: "Suporte na atualização e melhorias no site, criação do site da revist pré-vestibular, usando as melhores práticas de desenvolvimento, atuando conforme prazos determinados." },
+  { id: "1",  name: "Desenvolvedor Front-end",company: "Telefônica Educação Digital", year: "2019 - 2022", text: "Desenvolvi projetos de e-learnings, revistas digitais, games, onepages, landing pages para diversos clientes de segmentos variados que iam destes atacados, companhia aéreas, setor hospitalar, setor de telefonia, usando Javascript e algumas bibliotecas para criar animações, usava o Gulp para automatizar as tarefas além de Photoshop e Illustrator para fazer os recortes nos layouts que eram desenvolvidos pelos designers, e após aprovação do cliente fechava o pacote Scorm para que os projetos desenvolvidos sejam compatíveis com os LMS dos clientes." },
+
+  { id: "2", name: "Desenvolvedor Full-Stack", company: "Agência Webnauta", year: "2018 - 2019", text: "Desenvolvia e fazia a manutenção projetos de sites institucionais, e-learnings, sistemas, como clientes tinhamos deste pessoas fisicas que queriam ter um site, pequenos negócios que queriam um ecommerce até a manutenção e desenvolvimento de projetos e relatórios para a ABED(Associação Brasileira de Educação a Distância) usando como principais tecnologias HTML, CSS, Javascript, no backend trabalhava com PHP, e como CMS usava o Wordpress e OJS(Open Journal System)." },
+
+  { id: "4", name: "Estagiário Front-end", company: "UNIVESP", year: "2014 - 2015", text: "Prestava suporte na manutenção e melhorias do site da instituição,desenvolvi junto com o designer o site da revista Univesp, além de auxiliar na criação ou manutenção de funcionalidades dos cursos que a instituição possuia, como tecnologias utilizava HTML, CSS, Javascript, Jquery e o CMS Locomotive." },
+
   { id: "5", name: "Auxiliar de Distribuição", company: "Covidien", year: "2012 - 2013", text: "Separação, conferência, recebimento e inventário de produtos." },
   { id: "6", name: "Conferente", company: "Playarte Pictures", year: "2008 - 2011", text: "Separação, conferência, recebimento e inventário de produtos." },
 ];

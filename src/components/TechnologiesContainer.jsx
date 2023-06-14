@@ -16,7 +16,9 @@ import {
   SiTailwindcss, 
   SiWordpress, 
   SiPhp,
-  SiBootstrap
+  SiBootstrap,
+  SiTypescript,
+  SiNextdotjs
 } from "react-icons/si";
 
 import "../styles/components/technologiescontainer.scss";
@@ -26,6 +28,8 @@ const technologies = [
   { id: "css", name: "CSS3", icon: <DiCss3 /> },
   { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "next", name: "Next js", icon: <SiNextdotjs /> },
+  { id: "typescript", name: "Typescript", icon: <SiTypescript /> },
   { id: "vue", name: "Vue", icon: <IoLogoVue /> },
   { id: "tailwind", name: "Tailwind", icon: <SiTailwindcss /> },
   { id: "bootstrap", name: "Bootstrap", icon: <SiBootstrap /> },
